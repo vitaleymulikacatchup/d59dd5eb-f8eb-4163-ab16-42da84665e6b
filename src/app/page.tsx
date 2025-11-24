@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import { Scissors } from "lucide-react";
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import Link from "next/link";
+import { Instagram, Facebook } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -96,12 +96,12 @@ export default function HomePage() {
           ]}
           socialLinks={[
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/lusuiodyvan",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/lusuiodyvan",
               ariaLabel: "Like us on Facebook"
             }

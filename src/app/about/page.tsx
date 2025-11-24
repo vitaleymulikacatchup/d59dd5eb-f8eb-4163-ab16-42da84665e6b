@@ -1,8 +1,9 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
+import { Instagram, Facebook } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -81,12 +82,12 @@ export default function AboutPage() {
           ]}
           socialLinks={[
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/lusuiodyvan",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/lusuiodyvan",
               ariaLabel: "Like us on Facebook"
             }

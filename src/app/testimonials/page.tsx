@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, Instagram, Facebook } from "lucide-react";
 
 export default function TestimonialsPage() {
   return (
@@ -118,12 +118,12 @@ export default function TestimonialsPage() {
           ]}
           socialLinks={[
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/lusuiodyvan",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/lusuiodyvan",
               ariaLabel: "Like us on Facebook"
             }

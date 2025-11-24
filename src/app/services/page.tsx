@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Star } from "lucide-react";
+import { Star, Instagram, Facebook } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -106,12 +106,12 @@ export default function ServicesPage() {
           ]}
           socialLinks={[
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/lusuiodyvan",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/lusuiodyvan",
               ariaLabel: "Like us on Facebook"
             }
